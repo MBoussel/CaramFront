@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fff6e6;
+  margin: 0;
+  padding: 0;
+   background-image: url(https://www.bonbonfactory.fr/wp-content/uploads/2016/03/2.jpg.webp);
+   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+padding-left: 30em;
+padding-top: 10em;
+}
+
+h1 {
+  color: #FD2F2F;
+}
+
+.blague-box {
+  background-color: #E6C434;
+  border-radius: 10px;
+  padding: 20px;
+
+  margin: 20px auto;
+  max-width: 500px;
+  min-width: 500px;
+ 
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.reponse {
+  font-style: italic;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #FD2F2F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 10em;
+}
+
+button:hover {
+  background-color: #a72020;
+}
